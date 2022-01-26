@@ -1,0 +1,115 @@
+body {
+  background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p1/3025990-minimal-soft-bright-pink-pastel-background-gr%C3%A1tis-foto.jpg);
+  background-size: cover;
+  background-position: center; 
+}
+
+.game {
+  display: flex;
+  margin: 100px 0px;
+}
+
+.game > div {
+  padding: 0px 50px;
+  width: 50%;
+}
+
+/* text format */
+h1 {
+  font-family: 'Ariel', cursive;
+  color: white;
+  font-size: 85px;
+  text-shadow: 5px 10px 5px #D885A3;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Ariel', cursive;
+  font-size: 40px;
+  color: #D885A3;
+  text-shadow: 8px 4px 8px white;
+}
+
+button {
+  background-color: #D885A3;
+  border-color: #D885A3;
+  border-radius: 10px;
+  padding: 15px;
+  font-family: 'Ariel', cursive;
+  color: white;
+  font-size: 30px;
+  margin-right: 10%;
+}
+
+button:hover {
+  box-shadow: 0px 0px 20px 5px #D885A3 inset;
+  border-color: #fa45ff;
+  cursor: pointer;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: #D885A3;
+}
+
+.left {
+  line-height: 50px;
+  background-color: #FBCAFF;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 420px;
+  box-shadow: 0px 0px 40px 10px #D885A3 inset;
+}
+
+.game-info {
+  display: none;
+}
+
+#high-score {
+  font-size: 20px;
+}
+
+/* grid layout */
+#grid {
+  flex-wrap: wrap;
+  width: 540px;
+  height: 420px;
+  box-shadow: 5px 5px 20px 5px #D885A3;
+  display: none;
+}
+
+.cell {
+  height: 56px;
+  width: 56px;
+  border: 2px solid  #D885A3;
+}
+
+/* flores */
+.green {
+  background-image: url('../assets/flor1.png');
+  background-size:contain;
+  background-position: center;
+}
+.purple {
+  background-image: url('../assets/flor2.png');
+  background-size:contain;
+  background-position: center;
+}
+.orange {
+  background-image: url('../assets/flor3.png');
+  background-size:contain;
+  background-position: center;
+}
+.blue {
+  background-image: url('../assets/flor4.png');
+  background-size:contain;
+  background-position: center;
+}
+
+.first-pick {
+  border: 2px solid white;
+  filter: brightness(120%)
+}

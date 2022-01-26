@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+  <head>
+  <meta charset="utf-8">
+  <title>Jogo</title>
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Montserrat:600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/app.js"></script>
+  </head>
+
+  <body>
+    <main>
+      <h1>Flower's</h1>
+      <div class="game">
+        <!-- LEFT -->
+        <div class="left">
+          <!-- pre-game -->
+          <div class="instructions">
+            <p>No jogo de Flower's, sua missão é esmagar o máximo de florzinhas possível movendo uma flor e alinhando-o
+              com uma linha ou coluna de três outras flores iguais.</p>
+          </div>
+          <!-- in-game -->
+          <div class="game-info">
+            <p id="high-score"></p>
+            <h2 id="score"></h2>
+            <h2 id="moves"></h2>
+            <h2 id="timer"></h2>
+          </div>
+        </div>
+
+        <!-- RIGHT -->
+        <div>
+          <!-- pre-game -->
+          <div class="mode-choice">
+            <h2>Para iniciar um novo jogo,</h2>
+            <h2>escolha um modo:</h2>
+            <button id="pressure">Inicio</button>
+            <button id="strategy">Estrategia</button>
+          </div>
+          <!-- in-game -->
+          <div id="grid"></div>
+        </div> 
+      </div>
+    </main>
+  </body>
+</html>
